@@ -1,0 +1,66 @@
+ body {
+        margin: 0;
+    }
+    h1{
+        text-align: center;
+        text-decoration: underline;
+        
+    }
+    .daftar-table {
+        background-color: goldenrod;
+        color: black;
+        margin: auto;
+        padding: 10px;
+        border-collapse: collapse;
+        box-sizing: border-box;
+        font-size: 20px;
+        border: 1px solid grey;
+        margin-top: 18px;
+        
+    }
+    .daftar-table tr:hover {
+        background-color: grey;
+        color: white;
+        cursor: pointer;
+        
+    }
+    .daftar-table td {
+        padding: 13px;
+        box-sizing: border-box;
+        border-bottom: 1px solid grey;
+        border-right: 1px solid grey;
+    }
+    .thead table{
+        margin: auto;
+        padding: 10px;
+        position: relative;
+        font-size: 20px;
+       
+    }
+    
+
+    #id{
+       position: absolute;
+       margin-left: -647px;
+       
+    }
+    #name{
+       position: absolute;
+       margin-left: -520px;
+    }
+    #username{
+       position: absolute;
+       margin-left: -335px;
+    }
+    #address{
+       position: absolute;
+       margin-left: 220px;
+    }
+    #email{
+       position: absolute;
+       margin-left: -100px;
+    }
+    #company{
+        position: absolute;
+        margin-left: 510px;
+    }
